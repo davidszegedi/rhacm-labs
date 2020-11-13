@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: dev-clusters
-  namespace: etherpad
+  namespace: etherpad-stable
 spec:
   clusterConditions:
     - type: ManagedClusterConditionAvailable
@@ -10,4 +10,4 @@ spec:
   clusterSelector:
     matchLabels:
       environment: dev
-      app: fast
+      app: stable
