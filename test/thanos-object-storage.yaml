@@ -10,5 +10,5 @@ stringData:
       bucket: instancebackends3
       endpoint: s3.dualstack.eu-west-3.amazonaws.com
       insecure: false
-      access_key: AKIASF6WONV2CCTQHEPS
-      secret_key: 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
+      access_key: 
+      secret_key: 
