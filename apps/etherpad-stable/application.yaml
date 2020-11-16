@@ -35,7 +35,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/github-path: resources/etherpad-stable
 spec:
-  channel: etherpad/etherpad-app-latest
+  channel: etherpad-stable/etherpad-app-latest
   placement:
     placementRef:
       kind: PlacementRule
